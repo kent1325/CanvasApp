@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>CanvasApp</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="CanvasApp.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="toolbar">
+            <div id="rad">
+                Radius <span id="radval">10</span>
+                <div id="decrad" class="radcontrol">-</div>
+                <div id="incrad" class="radcontrol">+</div>
+            </div>
+            <div id="colors"></div>
+            <div id="undo">Undo</div>
+            <div id="redo">Redo</div>
+            <div id="clear">Clear</div>
+            <div id="save">Save</div>
+        </div>
+        <canvas id="canvas">
+            Sorry, your browser sucks!
+        </canvas>
+        <script src="CanvasApp.js"></script>
+    </body>
+</html>

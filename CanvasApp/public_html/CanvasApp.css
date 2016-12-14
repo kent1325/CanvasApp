@@ -1,0 +1,123 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13-Dec-2016, 13:32:09
+    Author     : kvn
+*/
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+body {
+    margin: 0;
+}
+
+canvas {
+    display: block;
+}
+
+#toolbar {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    background-color: #2F2F2F;
+    color: white;
+}
+
+.radcontrol {
+    width: 30px;
+    height: 30px;
+    background-color: #4F4F4F;
+    display: inline-block;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.radcontrol:hover {
+    background-color: #818181;
+    cursor: pointer;
+}
+
+#rad {
+    float: left;
+}
+
+#colors {
+    float: right;
+}
+
+.swatch {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .5), 0px 2px 2px rgba(0, 0, 0, .5);
+    display: inline-block;
+    margin-left: 10px; 
+}
+
+.swatch.active {
+    border: 2px solid white;
+    box-shadow: inset 0px 1px 2px rgba(0, 0, 0, .5);
+}
+
+#undo {
+    float: right;
+    margin-right: 10px;
+    height: 30px;
+    padding: 8px;
+    background-color: #434343;
+}
+
+#undo:hover {
+    background-color: #818181;
+    cursor: pointer;
+}
+
+#redo {
+    float: right;
+    margin-right: 10px;
+    height: 30px;
+    padding: 8px;
+    background-color: #434343;
+}
+
+#redo:hover {
+    background-color: #818181;
+    cursor: pointer;
+}
+
+#clear {
+    float: right;
+    margin-right: 10px;
+    height: 30px;
+    padding: 8px;
+    background-color: #434343;
+}
+
+#clear:hover {
+    background-color: #818181;
+    cursor: pointer;
+}
+
+#save {
+    float: right;
+    margin-right: 10px;
+    height: 30px;
+    padding: 8px;
+    background-color: #434343;
+}
+
+#save:hover {
+    background-color: #818181;
+    cursor: pointer;
+}
